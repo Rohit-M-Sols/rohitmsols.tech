@@ -1,0 +1,39 @@
+{
+    "name": "rohitmsols.tech",
+    "version": "1.0.0",
+    "description": "My portfolio website for freelancing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production",
+        "debug": "webpack --mode development",
+        "debug:watch": "webpack --mode development --watch",
+        "deploy": "cp ./CNAME ./dist/ && gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rohit-M-Sols/rohitmsols.tech.git"
+    },
+    "author": "Rohit Mehta",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Rohit-M-Sols/rohitmsols.tech/issues"
+    },
+    "homepage": "https://github.com/Rohit-M-Sols/rohitmsols.tech#readme",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "css-minimizer-webpack-plugin": "^4.2.2",
+        "gh-pages": "^4.0.0",
+        "html-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.7.2",
+        "postcss": "^8.4.20",
+        "postcss-loader": "^7.0.2",
+        "postcss-preset-env": "^7.8.3",
+        "style-loader": "^3.3.1",
+        "tailwindcss": "^3.2.4",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    }
+}
