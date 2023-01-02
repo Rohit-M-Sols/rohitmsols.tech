@@ -8,7 +8,8 @@
         "build": "webpack --mode production",
         "debug": "webpack --mode development",
         "debug:watch": "webpack --mode development --watch",
-        "deploy": "cp ./CNAME ./dist/ && gh-pages -d dist"
+        "deploy": "cp ./CNAME ./dist/ && gh-pages -d dist",
+        "serve": "webpack serve --mode development"
     },
     "repository": {
         "type": "git",
