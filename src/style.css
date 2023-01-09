@@ -10,82 +10,76 @@
 @tailwind utilities;
 
 :root {
-    --coral: #f78154ff;
-    --gainsboro: #dfdfdfff;
-    --cultured: #f8f9faff;
-    --jet: #443f3dff;
-    --chestnut: #a1593eff;
-
     --gradient-top: linear-gradient(
         0deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-right: linear-gradient(
         90deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-bottom: linear-gradient(
         180deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-left: linear-gradient(
         270deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-top-right: linear-gradient(
         45deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-bottom-right: linear-gradient(
         135deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-top-left: linear-gradient(
         225deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-bottom-left: linear-gradient(
         315deg,
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
     --gradient-radial: radial-gradient(
-        var(--coral),
-        var(--gainsboro),
-        var(--cultured),
-        var(--jet),
-        var(--chestnut)
+        "coral",
+        "gainsboro",
+        "cultured",
+        "jet",
+        "chestnut"
     );
 }
 
