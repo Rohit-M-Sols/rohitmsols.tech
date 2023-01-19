@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const SitemapWebpackPlugin = require('sitemap-webpack-plugin').default;
 
 module.exports = {
     entry: "./src/index.js",
@@ -20,6 +21,8 @@ module.exports = {
         new MiniCssExtractPlugin(),
 
         new CssMinimizerPlugin(),
+
+        new SitemapWebpackPlugin({base: 'http://rohitmsols.com', paths: ['/'], options: {skipgzip: true}}),
     ],
     module: {
         rules: [
